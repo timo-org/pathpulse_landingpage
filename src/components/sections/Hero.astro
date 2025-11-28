@@ -7,6 +7,17 @@ const signupWhatsAppLink = "https://wa.me/27726948528?text=SIGNUP";
 ---
 <section id="home" class="relative w-full overflow-hidden min-h-screen">
 
+    <!-- Desktop video background - positioned at section level, hidden on mobile -->
+    <video 
+      autoplay
+      loop
+      muted
+      playsinline
+      class="hidden md:block absolute inset-0 w-full h-full object-cover desktop-hero-video"
+      style="object-position: center center; z-index: 1;"
+    >
+      <source src="/TimoPathPulseHero.mp4" type="video/mp4" />
+    </video>
 
     <!-- Gradient overlay for text readability - hidden on mobile, shown on desktop -->
     <div class="hidden md:block absolute inset-0 w-full h-full bg-black/50 z-10" style="min-height: 100vh;"></div>
@@ -17,7 +28,7 @@ const signupWhatsAppLink = "https://wa.me/27726948528?text=SIGNUP";
         <!-- Text above video on mobile -->
         <div class="text-center space-y-4 mb-6 z-30 relative">
           <h1 class="uppercase text-4xl font-bold flex flex-col space-y-2">
-            <span class="text-accent drop-shadow-2xl">Timo Rides x Path Pulse</span>
+            <span class="text-accent drop-shadow-2xl">Timo Rides x <span class="whitespace-nowrap">Path Pulse</span></span>
             <span class="text-white drop-shadow-2xl">Leaderboard Challenge</span>
           </h1>
           <p class="text-lg text-white font-semibold drop-shadow-lg">
@@ -51,24 +62,11 @@ const signupWhatsAppLink = "https://wa.me/27726948528?text=SIGNUP";
         </div>
       </div>
 
-      <!-- Desktop layout: centered overlay (unchanged) -->
+      <!-- Desktop layout: centered overlay -->
       <div class="hidden md:flex flex-col justify-center items-center animate-fadeIn relative min-h-screen z-20">
-        <!-- Desktop video background -->
-        <video 
-          autoplay
-          loop
-          muted
-          playsinline
-          class="absolute inset-0 w-full h-full object-cover"
-          style="object-position: center center; z-index: -1;"
-        >
-          <source src="/TimoPathPulseHero.mp4" type="video/mp4" />
-        </video>
-        <!-- Desktop overlay -->
-        <div class="absolute inset-0 w-full h-full bg-black/50 z-0"></div>
         <div class="text-center space-y-4">
           <h1 class="uppercase text-5xl md:text-6xl lg:text-7xl font-bold flex flex-col space-y-2">
-            <span class="text-accent drop-shadow-2xl">Timo Rides x Path Pulse</span>
+            <span class="text-accent drop-shadow-2xl">Timo Rides x <span class="whitespace-nowrap">Path Pulse</span></span>
             <span class="text-white drop-shadow-2xl">Leaderboard Challenge</span>
           </h1>
           <p class="text-xl md:text-2xl text-white font-semibold drop-shadow-lg mt-4">

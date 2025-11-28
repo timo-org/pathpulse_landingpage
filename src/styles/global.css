@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: var(--color-bg);
+    background-color: #0f172a; /* slate-900 to match section backgrounds */
     font-family: var(--font-base);
 }
 
@@ -40,7 +40,13 @@ body{
     min-height: auto;
   }
   
-  #home video {
+  /* Hide desktop video on mobile */
+  #home .desktop-hero-video {
+    display: none !important;
+  }
+  
+  /* Only show mobile inline video */
+  #home .max-w-7xl video {
     object-fit: contain;
     object-position: center center;
     width: 100%;
