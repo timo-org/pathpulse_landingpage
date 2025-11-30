@@ -1,4 +1,5 @@
 ---
+const pathPulseLink = "https://play.google.com/store/apps/details?id=com.nxved.pulsescout.nativeapp&referrer=utm_source%3Dreferral%26utm_content%3D072";
 ---
 
 <section id="leaderboard" class="relative flex flex-col w-full h-full py-20 overflow-hidden bg-gradient-to-b from-teal-900 via-blue-900 to-slate-900" style="margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%);">
@@ -27,7 +28,7 @@
         <!-- Call to action text -->
         <div class="text-center">
             <p class="text-white text-lg md:text-xl font-semibold">
-                Ready to climb the leaderboard? <span class="text-accent">Download PathPulse now</span> and start competing!
+                Ready to climb the leaderboard? <a href={pathPulseLink} target="_blank" rel="noopener noreferrer" class="text-accent hover:underline">Download PathPulse now</a> and start competing!
             </p>
         </div>
     </div>

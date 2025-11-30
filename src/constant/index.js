@@ -13,7 +13,7 @@ export const faqs = [
   {
     question: "When does the competition run?",
     answer:
-      "The competition runs from December 5–20, 2024 (15 days). You can sign up and download the app anytime, but we recommend starting before December 5 to ensure your setup is correct and you're ready to compete from day one.",
+      "The competition runs from December 5 to 20, 2025 (15 days). You can sign up and download the app anytime, but we recommend starting before December 5 to ensure your setup is correct and you're ready to compete from day one.",
   },
   {
     question: "How do I sign up for the competition?",
@@ -58,6 +58,6 @@ export const faqs = [
   {
     question: "Can I start competing after December 5?",
     answer:
-      "Yes, you can join the competition at any time during the December 5–20 period. However, starting earlier gives you more time to accumulate points and climb the leaderboard. We recommend starting before December 5 to ensure everything is set up correctly.",
+      "Yes, you can join the competition at any time during the December 5 to 20 period. However, starting earlier gives you more time to accumulate points and climb the leaderboard. We recommend starting before December 5 to ensure everything is set up correctly.",
   },
 ];

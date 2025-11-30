@@ -1,7 +1,6 @@
 ---
 
-
-const {Icon, label, text} = Astro.props;
+const {Icon, label, text, link} = Astro.props;
 ---
 
 <div class="flex flex-col bg-black/70 backdrop-blur-md rounded-xl p-6 border border-white/10 shadow-xl h-full">
@@ -10,6 +9,12 @@ const {Icon, label, text} = Astro.props;
     </div>
     <div class="flex flex-col">
         <h2 class="text-white font-bold text-lg mb-2">{label}</h2>
-        <p class="text-white/90 text-base">{text}</p>
+        {link ? (
+            <a href={link} class="text-white/90 text-base hover:text-accent transition-colors duration-300" target={link.startsWith('mailto:') ? undefined : '_blank'} rel={link.startsWith('mailto:') ? undefined : 'noopener noreferrer'}>
+                {text}
+            </a>
+        ) : (
+            <p class="text-white/90 text-base">{text}</p>
+        )}
     </div>
 </div>

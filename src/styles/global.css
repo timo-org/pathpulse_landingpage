@@ -8,6 +8,11 @@
     --color-accent: #FED902;
 }
 
+html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
 body{
     background-color: #0f172a; /* slate-900 to match section backgrounds */
     font-family: var(--font-base);

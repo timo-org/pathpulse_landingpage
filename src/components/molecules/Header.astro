@@ -5,8 +5,7 @@ import Logo from "../../assets/images/Logo.svg"
 import { Image } from 'astro:assets';
 import { Menu, X } from "@lucide/astro"
 
-
-
+const whatsAppLink = "https://wa.me/27697798934";
 
 ---
 
@@ -17,7 +16,7 @@ import { Menu, X } from "@lucide/astro"
           <Image 
           src={Logo} 
           alt="Logo"
-          class="w-20 h-20 md:w-40 md:h-40"
+          class="w-20 h-20 md:w-32 md:h-32"
           />
         </a>
         
@@ -36,7 +35,7 @@ import { Menu, X } from "@lucide/astro"
 
             <div class="flex justify-end items-center gap-2 max-md:hidden">
               <Link href='#' label='Login' classes='px-5 py-2 font-bold text-bg rounded-full text-sm hover:text-accent transition duration-300'/>
-              <Link href='#' label='Register' classes='bg-primary px-5 py-2 font-bold text-bg rounded-full text-sm hover:bg-accent hover:text-primary transition duration-300'/>
+              <Link href={whatsAppLink} label='Register' classes='bg-primary px-5 py-2 font-bold text-bg rounded-full text-sm hover:bg-accent hover:text-primary transition duration-300' target="_blank" rel="noopener noreferrer"/>
             </div>
 
         </div>
@@ -68,7 +67,7 @@ import { Menu, X } from "@lucide/astro"
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="block px-3 py-2 bg-accent text-primary rounded">
+                  <a href={whatsAppLink} target="_blank" rel="noopener noreferrer" class="block px-3 py-2 bg-accent text-primary rounded">
                     Register
                   </a>
                 </li>

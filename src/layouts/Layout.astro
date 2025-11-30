@@ -17,7 +17,7 @@ const {
 <html lang="en" class="scroll-smooth">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
 		<link rel="icon" type="image/png" href="/Logo.png" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
@@ -30,7 +30,7 @@ const {
 		/>
 
 	</head>
-	<body class="">
+	<body class="overflow-x-hidden">
 		<Header/>
 			<main class="flex flex-col"> 
 				<slot />
