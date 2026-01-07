@@ -13,7 +13,7 @@ export const faqs = [
   {
     question: "When does the competition run?",
     answer:
-      "The competition runs from December 5 to 20, 2025 (15 days). You can sign up and download the app anytime, but we recommend starting before December 5 to ensure your setup is correct and you're ready to compete from day one.",
+      "The competition runs from January 12 to February 1, 2025 (21 days). You can sign up and download the app anytime, but we recommend starting before January 12 to ensure your setup is correct and you're ready to compete from day one.",
   },
   {
     question: "How do I sign up for the competition?",
@@ -23,7 +23,7 @@ export const faqs = [
   {
     question: "How does the prize structure work?",
     answer:
-      "The R17,300 prize pool is distributed across three stages: Top 20 drivers receive rewards, Top 15 drivers earn bonuses, and Top 10 drivers win the largest share. This means multiple drivers win prizes throughout the competition, not just at the end.",
+      "The R16,530 prize pool is distributed across 2 rounds. Round 1 (R6,640): Top 15 drivers win prizes ranging from R215 (11th-15th) to R1,322 (1st place). Round 2 (R9,890): Top 15 drivers win prizes ranging from R431 (11th-15th) to R1,984 (1st place). Multiple drivers win prizes in both rounds throughout the competition!",
   },
   {
     question: "How are winners chosen?",
@@ -56,8 +56,8 @@ export const faqs = [
       "TimoRides and PathPulse are partnering to improve transportation in South Africa. By participating in this competition, you're helping build better routing and mobility intelligence while earning cash prizes. PathPulse is already working with the Indian government—this pilot brings similar benefits to South Africa.",
   },
   {
-    question: "Can I start competing after December 5?",
+    question: "Can I start competing after January 12?",
     answer:
-      "Yes, you can join the competition at any time during the December 5 to 20 period. However, starting earlier gives you more time to accumulate points and climb the leaderboard. We recommend starting before December 5 to ensure everything is set up correctly.",
+      "Yes, you can join the competition at any time during the January 12 to February 1 period. However, starting earlier gives you more time to accumulate points and climb the leaderboard. We recommend starting before January 12 to ensure everything is set up correctly.",
   },
 ];
